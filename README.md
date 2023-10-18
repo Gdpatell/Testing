@@ -1,4 +1,17 @@
-# Testing
-I am testing Github
+# Create table Script
+create table sourcetable (
+id int identity(1,1),
+name varchar(50),
+village varchar(50)
+)
 
-Now i am using
+create table targettable (
+id int identity(1,1),
+name varchar(50),
+village varchar(50),
+createdon datetime,
+createdby varchar(20),
+modifiedon datetime,
+modifiedby varchar(20)
+
+)
