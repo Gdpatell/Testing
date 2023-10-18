@@ -15,3 +15,6 @@ modifiedon datetime,
 modifiedby varchar(20)
 
 )
+
+insert into sourcetable (name,village)
+values ('Gaurang','patdi'),('Nilesh','Goraiya')
